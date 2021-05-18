@@ -401,7 +401,7 @@ sim.1 <- function(k, m, v, rho, p)
 
 ##########                                            Data generation                                            ##########
 
-nsimul <- 80
+nsimul <- 10000
 ncores <- 8
 
 ##########################################     With rho = 0.01     ##########################################
@@ -1780,7 +1780,7 @@ sim.2 <- function(k, m, v, rho, threshold)
 
 ncores <- 8
 nfor <- 10
-nsimul <- 8
+nsimul <- 1000
 
 Res <- list()
 for (j in 1:nfor)
